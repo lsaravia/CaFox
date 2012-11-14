@@ -139,7 +139,7 @@ Cambiar opcionalmente a bordes no continuos
 ## License
 
 
-	Copyright 2011 Leonardo A. Saravia
+	Copyright 2001 Leonardo A. Saravia
  
     This program is free software: you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
