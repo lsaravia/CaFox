@@ -1,12 +1,12 @@
-Descripcion de archivos de parametros
+# Descripcion de archivos de parametros
 
-Estructura de las estaciones del año asumidas en el modelo
+# Estructura de las estaciones del año asumidas en el modelo
 1	Repro	Disp
 2	Caza	Disp
 3	Caza
 4	Repro
 
-ARCHIVO de extension INP
+# ARCHIVO de extension INP
 
 Archivo de parametros del modelo y especies
 
@@ -46,9 +46,9 @@ Parametros de Especies
 	1
 
 9: Edad Maxima 
-	11 anios o sea 44 (periodos de 3 months)
+	11 años o sea 44 (periodos de 3 months)
 
-10 11 12: Tamanio de camada (Por estadio y sitio)
+10 11 12: Tamaño de camada (Por estadio y sitio)
 		0 3 5 0 3 5 
 
 12 13 14: Probabilidad de supervivencia por edad y sitio
