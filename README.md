@@ -7,10 +7,11 @@ All the
 ## Descripcion de archivos de parametros
 
 ## Estructura de las estaciones del año asumidas en el modelo
-1	Repro	Disp
-2	Caza	Disp
-3	Caza
-4	Repro
+
+         1	Repro	Disp
+         2	Caza	Disp
+         3	Caza
+         4	Repro
 
 ## ARCHIVO de extension INP
 
