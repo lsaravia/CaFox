@@ -1,3 +1,9 @@
+# Individual based model of Fox movements C++
+
+The foxes disperse move and reproduce between zones with or without hunting
+and the parameters change according to that.
+All the 
+
 # Descripcion de archivos de parametros
 
 # Estructura de las estaciones del año asumidas en el modelo
@@ -69,7 +75,7 @@ Parametros de Especies
 24 25 26: Probabilidad de mortalidad por Caza
 		.0 .12 .12 .70 .33 .33
 
-ARCHIVO de extension SED
+# ARCHIVO de extension SED
 Ejemplo de dimension 4x4, en SP esta la hubicacion de los individuos de
 las especies ( en nuestro caso siempre 1), en AG esta la edad de los
 individuos y en SI esta la distribucion de sitios.
@@ -90,7 +96,8 @@ SI
 1 1 0 0 
 
 
-ARCHIVO de extension SET
+# ARCHIVO de extension SET
+
 Primero esta el nro de especie (comenzando desde cero pa'complicar la
 cosa) para nosotros siempre 0. luego esta la edad, luego la cantidad y 
 finalmente la posicion en el eje x a partir de la cual se ubican, si
@@ -100,7 +107,7 @@ es 0 se ubican al azar en todo el espacio.
 0  6 100 0
 0 16 100 0
 
-EJECUCION del programa
+# EJECUCION del programa
 
 gcafox d150.inp d150e15.sed k.set s 1 s n d150e15 > d150e15.out
         1           2         3   4 5 6 7    8         9
