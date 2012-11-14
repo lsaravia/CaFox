@@ -16,66 +16,87 @@ All the
 
 Archivo de parametros del modelo y especies
 
-10 10			Dimensiones del CA: X Y
-100 1			Numero de Iteraciones y Numero de Repeticiones
-2			Numero de especies y a continuacion los parms de las sp.
-0 3 1  15 5 3 2  5 5  .02 .80 .90 .04 .50 .50  15 20  0 .00 .50 .00 .20 .20 .20
+         10 10			Dimensiones del CA: X Y
+         100 1			Numero de Iteraciones y Numero de Repeticiones
+         2			Numero de especies y a continuacion los parms de las sp.
+         0 3 1  15 5 3 2  5 5  .02 .80 .90 .04 .50 .50  15 20  0 .00 .50 .00 .20 .20 .20
 ...
 
+
 Parametros de Especies
-1: Numero de especie comenzando desde 0 y en orden creciente
 
-2: Numero de estadios (clases de edades)
-	3
-3: Numero de sitios (Estancias con o sin caza = 2 sitios)
-	2
+1:Numero de especie comenzando desde 0 y en orden creciente
 
-4: Distancia minima de Establecimiento, cuando un individuo se dispersa
-   	3
+         0
+
+2:Numero de estadios (clases de edades)
+
+         3
+
+3:Numero de sitios (Estancias con o sin caza = 2 sitios)
+
+         2
+
+4:Distancia minima de Establecimiento, cuando un individuo se dispersa
+
+         3
+  
    En el caso de dispersion exponencial es la distancia media de dispersion (Km)
-	20
+
+         20
 
 5: Distancia a la cual el individuo evalua si sigue moviendose o no en el
    proceso de dispersion
-   	3
+  
+         3
 
 6: Distancia de evaluacion (hacia atras) de prescencia de individuos 
    en el camino recorrido
-   	3
+
+         3
 
 7: Cantidad de minima de celdas vacias para que se pueda establecer
-	2
+
+         2
 
 8: Distancia maxima de alejamiento de la madre 
 	Ahora es el numero de intentos que hace un cachorro para encontrar un lugar vacio
 	al dispersarse
-	1
+
+         1
 
 9: Edad Maxima 
-	11 años o sea 44 (periodos de 3 months)
+
+         11 años o sea 44 (periodos de 3 months)
 
 10 11 12: Tamaño de camada (Por estadio y sitio)
+
 		0 3 5 0 3 5 
 
 12 13 14: Probabilidad de supervivencia por edad y sitio
+
 		.71 .81 .81 .90 1.0 1.0
 
 15 16 17: Probabilidad de reproducion
+
 		.00 .25 .25 .00 .25 .25
 
 18 19 20: Distancia de dispersion Maxima
+
 		60 60 60 60 60 60
 
 21 22 23: Probabilidad de Dispersion inicial 
+
 		.50 .37 .00 .67 .33 .00
 
-	  (Era antes la P dispersion Maxima, 
-		y disminuia con (1 - Dist.Recorrida / Dist.Maxima) )
+	  (Era antes la P dispersion Maxima y disminuia con (1 - Dist.Recorrida / Dist.Maxima) )
 
 24 25 26: Probabilidad de mortalidad por Caza
+
 		.0 .12 .12 .70 .33 .33
 
 ## ARCHIVO de extension SED
+
 Ejemplo de dimension 4x4, en SP esta la hubicacion de los individuos de
 las especies ( en nuestro caso siempre 1), en AG esta la edad de los
 individuos y en SI esta la distribucion de sitios.
